@@ -15,6 +15,7 @@ class Entidad(ABC):
 class Cliente(Entidad):
     def __init__(self, nombre, email, edad):
         super().__init__(nombre)
+        self.reservas = []
         # validación de datos usando setters
         self.set_nombre(nombre)
         self.set_email(email)
@@ -22,30 +23,30 @@ class Cliente(Entidad):
         logging.info(f"Cliente creado: {nombre}")
 
     # getters
-    def get_nombre(self):
+    def get_nombre(self) -> str :
         return self.__nombre
 
-    def get_email(self):
+    def get_email(self) -> str:
         return self.__email
 
-    def get_edad(self):
+    def get_edad(self)  -> int:
         return self.__edad
 
-    def set_nombre(self, nombre):
+    def set_nombre(self, nombre: str) -> None :
         if not nombre:
-            logging.error("Nombre vacio")
+            logging.error("Nombre inválido")
             raise ValueError("El nombre no puede estar vacio")
         self.__nombre = nombre
-    def set_email(self, email):
+    def set_email(self, email: str) -> None :
         patron = r"^[\w\.-]+@[\w\.-]+\.\w+$"
         if not re.match(patron, email):
-            logging.error("Correo invalido")
-            raise ValueError("Correo invalido")
+            logging.error("Correo inválido")
+            raise ValueError("Correo inválido")
 
         self.__email = email
 
     # validación de la edad 
-    def set_edad(self, edad):
+    def set_edad(self, edad: str)-> None:
 
         if not isinstance(edad, int):
             logging.error("Edad invalida")
@@ -54,11 +55,15 @@ class Cliente(Entidad):
         if edad <= 0:
             logging.error("Edad menor o igual a cero")
             raise ValueError("La edad debe ser mayor a cero")
+        if edad >120:
+            logging.error("Edad fuera de rango")
+            raise ValueError ("La edad no puede ser mayor a 120")
+
 
         self.__edad = edad
 
-    def mostrar_informacion(self):
-
-        print(f"Nombre: {self.get_nombre()}")
-        print(f"Edad: {self.get_edad()}")
-        print(f"Correo: {self.get_email()}")
+    def mostrar_informacion(self) -> str:
+        return (
+            f"Nombre: {self.get_nombre()}\n"
+            f"Edad: {self.get_edad()}\n"
+            f"Correo: {self.get_email()}")
