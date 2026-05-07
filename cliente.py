@@ -1,8 +1,10 @@
 from abc import ABC
 import logging
+import re
 
 # clase abstracta base
 class Entidad(ABC):
+
     def __init__(self, nombre):
         self.nombre = nombre
 
@@ -34,14 +36,17 @@ class Cliente(Entidad):
             logging.error("Nombre vacio")
             raise ValueError("El nombre no puede estar vacio")
         self.__nombre = nombre
-# validacion del correo 
     def set_email(self, email):
-        if email == "" or "@" not in email:
+        patron = r"^[\w\.-]+@[\w\.-]+\.\w+$"
+        if not re.match(patron, email):
             logging.error("Correo invalido")
             raise ValueError("Correo invalido")
+
         self.__email = email
-# validación de la edad 
+
+    # validación de la edad 
     def set_edad(self, edad):
+
         if not isinstance(edad, int):
             logging.error("Edad invalida")
             raise ValueError("La edad debe ser un numero entero")
@@ -53,6 +58,7 @@ class Cliente(Entidad):
         self.__edad = edad
 
     def mostrar_informacion(self):
+
         print(f"Nombre: {self.get_nombre()}")
         print(f"Edad: {self.get_edad()}")
         print(f"Correo: {self.get_email()}")
