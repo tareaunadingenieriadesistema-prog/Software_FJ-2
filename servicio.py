@@ -16,6 +16,9 @@ class Servicio(ABC):
     # método general para calcular costos
     def calcular_costo(self, cantidad, extra=0, descuento=0):
 
+
+        # descuento se maneja como porcentaje
+
         costo = (self.precio_base * cantidad) + extra
         costo -= costo * (descuento / 100)
 
@@ -35,14 +38,14 @@ class ReservaSala(Servicio):
 
         # validación de horas
         if horas <= 0:
-            logging.error("Horas invalidas")
+            logging.error("Horas inválidas")
             raise ValueError("Las horas deben ser mayores a cero")
 
         self.horas = horas
 
     def mostrar_descripcion(self):
 
-        print(f"Reserva de sala por {self.horas} horas")
+        return f"Reserva de sala por {self.horas} horas"
 
 
 class AlquilerEquipos(Servicio):
@@ -61,7 +64,7 @@ class AlquilerEquipos(Servicio):
 
     def mostrar_descripcion(self):
 
-        print(f"Alquiler de equipos por {self.dias} días")
+        return f"Alquiler de equipos por {self.dias} días"
 
 
 # servicio especifico: asesoria profesional
@@ -73,11 +76,11 @@ class Asesoria(Servicio):
 
         # validación de horas de asesoría
         if horas <= 0:
-            logging.error("Horas invalidas")
+            logging.error("Horas inválidas")
             raise ValueError("Horas invalidas")
 
         self.horas = horas
 
     def mostrar_descripcion(self):
 
-        print(f"Asesoría especializada por {self.horas} horas")
+        return f"Asesoría especializada por {self.horas} horas"
