@@ -1,3 +1,13 @@
+# Nombre de estudiante1: Jesus Andres Salcedo Martinez
+# Nombre de estudiante2: 
+# Nombre de estudiante3: 
+# Nombre de estudiante4: 
+# Nombre de estudiante5: 
+# Grupo: 213023_80
+# Programa: Ingenieria de sistemas
+# Código Fuente: autoría propia
+
+
 from logger import *
 
 from cliente import Cliente
