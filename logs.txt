@@ -1,0 +1,158 @@
+2026-05-07 14:39:16,750 - INFO - Cliente creado: Angela
+2026-05-07 14:39:16,751 - INFO - Cliente creado: Jesus
+2026-05-07 14:39:16,751 - ERROR - Nombre vacio
+2026-05-07 14:39:16,752 - ERROR - Cliente inválido 3: El nombre no puede estar vacio
+2026-05-07 14:39:16,752 - ERROR - Correo invalido
+2026-05-07 14:39:16,752 - ERROR - Cliente invalido 4: Correo invalido
+2026-05-07 14:39:16,753 - ERROR - Horas invalidas
+2026-05-07 14:39:16,753 - ERROR - Servicio inválido 4: Las horas deben ser mayores a cero
+2026-05-07 14:39:16,753 - ERROR - Horas invalidas
+2026-05-07 14:39:16,754 - ERROR - Servicio inválido 5: Horas invalidas
+2026-05-07 14:39:16,754 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 14:39:16,755 - ERROR - Error creando reserva 1: Error de tipo en procesamiento
+2026-05-07 15:02:03,126 - INFO - Cliente creado: Angela
+2026-05-07 15:02:03,126 - INFO - Cliente creado: Jesus
+2026-05-07 15:02:03,126 - ERROR - Nombre vacio
+2026-05-07 15:02:03,127 - ERROR - El nombre no puede estar vacio
+2026-05-07 15:02:03,127 - ERROR - Correo invalido
+2026-05-07 15:02:03,127 - ERROR - Correo invalido
+2026-05-07 15:02:03,127 - ERROR - Horas invalidas
+2026-05-07 15:02:03,128 - ERROR - Horas invalidas
+2026-05-07 15:02:03,128 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 15:02:03,128 - ERROR - Error de tipo en procesamiento
+2026-05-07 15:02:03,129 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 15:02:03,129 - ERROR - Error de tipo en procesamiento
+2026-05-07 15:02:03,129 - ERROR - name 'servicio3' is not defined
+2026-05-07 15:11:55,544 - INFO - Cliente creado: Angela
+2026-05-07 15:11:55,545 - INFO - Cliente creado: Jesus
+2026-05-07 15:11:55,545 - ERROR - Nombre inválido
+2026-05-07 15:11:55,545 - ERROR - El nombre no puede estar vacio
+2026-05-07 15:11:55,546 - ERROR - Correo inválido
+2026-05-07 15:11:55,546 - ERROR - Correo inválido
+2026-05-07 15:11:55,546 - ERROR - Horas inválidas
+2026-05-07 15:11:55,546 - ERROR - Horas invalidas
+2026-05-07 15:11:55,547 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 15:11:55,547 - ERROR - Error de tipo en procesamiento
+2026-05-07 15:11:55,547 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 15:11:55,548 - ERROR - Error de tipo en procesamiento
+2026-05-07 15:11:55,548 - ERROR - name 'servicio3' is not defined
+2026-05-07 21:34:47,118 - INFO - Cliente creado: Angela
+2026-05-07 21:34:47,119 - INFO - Cliente creado: Jesus
+2026-05-07 21:34:47,120 - ERROR - Nombre inválido
+2026-05-07 21:34:47,121 - ERROR - El nombre no puede estar vacio
+2026-05-07 21:34:47,121 - ERROR - Correo inválido
+2026-05-07 21:34:47,122 - ERROR - Correo inválido
+2026-05-07 21:34:47,124 - ERROR - Horas inválidas
+2026-05-07 21:34:47,126 - ERROR - Horas invalidas
+2026-05-07 21:34:47,128 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:34:47,130 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:34:47,133 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:34:47,141 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:34:47,145 - ERROR - name 'servicio3' is not defined
+2026-05-07 21:43:15,440 - INFO - Cliente creado: Angela
+2026-05-07 21:43:15,444 - INFO - Cliente creado: Jesus
+2026-05-07 21:43:15,446 - ERROR - Nombre inválido
+2026-05-07 21:43:15,449 - ERROR - El nombre no puede estar vacio
+2026-05-07 21:43:15,449 - ERROR - Correo inválido
+2026-05-07 21:43:15,450 - ERROR - Correo inválido
+2026-05-07 21:43:15,450 - ERROR - Horas inválidas
+2026-05-07 21:43:15,451 - ERROR - Horas invalidas
+2026-05-07 21:43:15,451 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:43:15,451 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:43:15,452 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:43:15,452 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:43:15,453 - ERROR - name 'servicio3' is not defined
+2026-05-07 21:59:12,299 - INFO - Cliente creado: Angela
+2026-05-07 21:59:12,300 - INFO - Cliente creado: Jesus
+2026-05-07 21:59:12,301 - ERROR - Nombre inválido
+2026-05-07 21:59:12,302 - ERROR - El nombre no puede estar vacio
+2026-05-07 21:59:12,302 - ERROR - Correo inválido
+2026-05-07 21:59:12,302 - ERROR - Correo inválido
+2026-05-07 21:59:12,302 - ERROR - Horas inválidas
+2026-05-07 21:59:12,303 - ERROR - Horas invalidas
+2026-05-07 21:59:12,303 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:59:12,303 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:59:12,303 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 21:59:12,304 - ERROR - Error de tipo en procesamiento
+2026-05-07 21:59:12,304 - ERROR - name 'servicio3' is not defined
+2026-05-07 22:09:31,813 - INFO - Cliente creado: Angela
+2026-05-07 22:09:31,814 - INFO - Cliente creado: Jesus
+2026-05-07 22:09:31,814 - ERROR - Nombre inválido
+2026-05-07 22:09:31,814 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:09:31,814 - ERROR - Correo inválido
+2026-05-07 22:09:31,815 - ERROR - Correo inválido
+2026-05-07 22:09:31,815 - ERROR - Horas inválidas
+2026-05-07 22:09:31,815 - ERROR - Horas invalidas
+2026-05-07 22:09:31,815 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 22:09:31,815 - ERROR - Error de tipo en procesamiento
+2026-05-07 22:09:31,816 - ERROR - Error de tipo: Servicio.calcular_costo() missing 1 required positional argument: 'cantidad'
+2026-05-07 22:09:31,816 - ERROR - Error de tipo en procesamiento
+2026-05-07 22:09:31,817 - ERROR - name 'cliente3' is not defined
+2026-05-07 22:15:57,000 - INFO - Cliente creado: Angela
+2026-05-07 22:15:57,000 - INFO - Cliente creado: Jesus
+2026-05-07 22:15:57,000 - ERROR - Nombre inválido
+2026-05-07 22:15:57,001 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:15:57,001 - ERROR - Correo inválido
+2026-05-07 22:15:57,001 - ERROR - Correo inválido
+2026-05-07 22:15:57,002 - ERROR - Horas inválidas
+2026-05-07 22:15:57,002 - ERROR - Horas invalidas
+2026-05-07 22:15:57,003 - INFO - Reserva confirmada
+2026-05-07 22:15:57,003 - INFO - Reserva procesada correctamente. Costo: 199.5
+2026-05-07 22:15:57,003 - INFO - Reserva confirmada
+2026-05-07 22:15:57,003 - INFO - Reserva procesada correctamente. Costo: 152.0
+2026-05-07 22:15:57,004 - ERROR - name 'cliente3' is not defined
+2026-05-07 22:17:02,066 - INFO - Cliente creado: Angela
+2026-05-07 22:17:02,067 - INFO - Cliente creado: Jesus
+2026-05-07 22:17:02,067 - ERROR - Nombre inválido
+2026-05-07 22:17:02,067 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:17:02,068 - ERROR - Correo inválido
+2026-05-07 22:17:02,068 - ERROR - Correo inválido
+2026-05-07 22:17:02,068 - ERROR - Horas inválidas
+2026-05-07 22:17:02,068 - ERROR - Horas invalidas
+2026-05-07 22:17:02,068 - INFO - Reserva confirmada
+2026-05-07 22:17:02,068 - INFO - Reserva procesada correctamente. Costo: 199.5
+2026-05-07 22:17:02,069 - INFO - Reserva confirmada
+2026-05-07 22:17:02,069 - INFO - Reserva procesada correctamente. Costo: 152.0
+2026-05-07 22:17:02,069 - ERROR - name 'cliente3' is not defined
+2026-05-07 22:17:23,338 - INFO - Cliente creado: Angela
+2026-05-07 22:17:23,339 - INFO - Cliente creado: Jesus
+2026-05-07 22:17:23,339 - ERROR - Nombre inválido
+2026-05-07 22:17:23,339 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:17:23,339 - ERROR - Correo inválido
+2026-05-07 22:17:23,339 - ERROR - Correo inválido
+2026-05-07 22:17:23,340 - ERROR - Horas inválidas
+2026-05-07 22:17:23,340 - ERROR - Horas invalidas
+2026-05-07 22:17:23,340 - INFO - Reserva confirmada
+2026-05-07 22:17:23,340 - INFO - Reserva procesada correctamente. Costo: 199.5
+2026-05-07 22:17:23,340 - INFO - Reserva confirmada
+2026-05-07 22:17:23,341 - INFO - Reserva procesada correctamente. Costo: 152.0
+2026-05-07 22:17:23,341 - WARNING - Cliente ya tiene una reserva activa
+2026-05-07 22:17:23,341 - ERROR - El cliente ya tiene una reserva activa
+2026-05-07 22:18:06,652 - INFO - Cliente creado: Angela
+2026-05-07 22:18:06,653 - INFO - Cliente creado: Jesus
+2026-05-07 22:18:06,654 - ERROR - Nombre inválido
+2026-05-07 22:18:06,655 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:18:06,663 - ERROR - Correo inválido
+2026-05-07 22:18:06,666 - ERROR - Correo inválido
+2026-05-07 22:18:06,683 - ERROR - Horas inválidas
+2026-05-07 22:18:06,706 - ERROR - Horas invalidas
+2026-05-07 22:18:06,719 - INFO - Reserva confirmada
+2026-05-07 22:18:06,741 - INFO - Reserva procesada correctamente. Costo: 199.5
+2026-05-07 22:18:06,746 - INFO - Reserva confirmada
+2026-05-07 22:18:06,748 - INFO - Reserva procesada correctamente. Costo: 152.0
+2026-05-07 22:18:06,752 - WARNING - Cliente ya tiene una reserva activa
+2026-05-07 22:18:06,756 - ERROR - El cliente ya tiene una reserva activa
+2026-05-07 22:22:18,333 - INFO - Cliente creado: Angela
+2026-05-07 22:22:18,334 - INFO - Cliente creado: Jesus
+2026-05-07 22:22:18,334 - ERROR - Nombre inválido
+2026-05-07 22:22:18,334 - ERROR - El nombre no puede estar vacio
+2026-05-07 22:22:18,335 - ERROR - Correo inválido
+2026-05-07 22:22:18,335 - ERROR - Correo inválido
+2026-05-07 22:22:18,335 - ERROR - Horas inválidas
+2026-05-07 22:22:18,335 - ERROR - Horas invalidas
+2026-05-07 22:22:18,336 - INFO - Reserva confirmada
+2026-05-07 22:22:18,336 - INFO - Reserva procesada correctamente. Costo: 199.5
+2026-05-07 22:22:18,337 - INFO - Reserva confirmada
+2026-05-07 22:22:18,337 - INFO - Reserva procesada correctamente. Costo: 152.0
+2026-05-07 22:22:18,337 - WARNING - Cliente ya tiene una reserva activa
+2026-05-07 22:22:18,338 - ERROR - El cliente ya tiene una reserva activa
