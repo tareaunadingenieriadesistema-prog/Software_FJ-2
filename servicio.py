@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 import logging
 
+
 # clase abstracta base para todos los servicios
 class Servicio(ABC):
 
@@ -14,8 +15,7 @@ class Servicio(ABC):
         self.precio_base = precio_base
 
     # método general para calcular costos
-    def calcular_costo(self, cantidad, extra=0, descuento=0):
-
+    def calcular_costo(self, cantidad=1, extra=0, descuento=0):
 
         # descuento se maneja como porcentaje
 
@@ -43,6 +43,11 @@ class ReservaSala(Servicio):
 
         self.horas = horas
 
+    def calcular_costo(self, extra=0, descuento=0):
+        return super().calcular_costo(
+            cantidad=self.horas, extra=extra, descuento=descuento
+        )
+
     def mostrar_descripcion(self):
 
         return f"Reserva de sala por {self.horas} horas"
@@ -62,6 +67,11 @@ class AlquilerEquipos(Servicio):
         # atributo propio del alquiler
         self.dias = dias
 
+    def calcular_costo(self, extra=0, descuento=0):
+        return super().calcular_costo(
+            cantidad=self.dias, extra=extra, descuento=descuento
+        )
+
     def mostrar_descripcion(self):
 
         return f"Alquiler de equipos por {self.dias} días"
@@ -78,6 +88,18 @@ class Asesoria(Servicio):
         if horas <= 0:
             logging.error("Horas inválidas")
             raise ValueError("Horas invalidas")
+
+        self.horas = horas
+
+    def calcular_costo(self, extra=0, descuento=0):
+        return super().calcular_costo(
+            cantidad=self.horas, extra=extra, descuento=descuento
+        )
+
+    def mostrar_descripcion(self):
+
+        return f"Asesoría especializada por {self.horas} horas"
+
 
         self.horas = horas
 
