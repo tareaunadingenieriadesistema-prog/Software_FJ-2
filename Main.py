@@ -1,8 +1,8 @@
-# Nombre de estudiante1: Jesus Andres Salcedo Martinez
-# Nombre de estudiante2: 
-# Nombre de estudiante3: 
-# Nombre de estudiante4: 
-# Nombre de estudiante5: 
+# Nombre de estudiante1: Andres David Perez Narvaez
+# Nombre de estudiante2: Angela Patricia Perez Corpas
+# Nombre de estudiante3: Cristian Jose Ortega Paternina
+# Nombre de estudiante4: Jesus Andres Salcedo Martinez
+# Nombre de estudiante5: Rodrigo Alberto Gaviria Arroyo
 # Grupo: 213023_80
 # Programa: Ingenieria de sistemas
 # Código Fuente: autoría propia
