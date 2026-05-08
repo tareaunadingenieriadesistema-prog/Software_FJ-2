@@ -46,7 +46,7 @@ class Cliente(Entidad):
         self.__email = email
 
     # validación de la edad 
-    def set_edad(self, edad: str)-> None:
+    def set_edad(self, edad: int)-> None:
 
         if not isinstance(edad, int):
             logging.error("Edad invalida")
