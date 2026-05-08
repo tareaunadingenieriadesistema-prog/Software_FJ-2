@@ -8,73 +8,83 @@ clientes = []
 servicios = []
 reservas = []
 
+
 print("===== PRUEBAS DEL SISTEMA SOFTWARE FJ =====")
 
-# CLIENTES VÁLIDOS
+# Cliente valido
 try:
     cliente1 = Cliente("Angela", "angela@gmail.com", 24)
     clientes.append(cliente1)
 except Exception as e:
-    print(e)
+    logging.error(e)
 
+# Cliente valido
 try:
     cliente2 = Cliente("Jesus", "Jesus@gmail.com", 30)
     clientes.append(cliente2)
-except Exception as e:
-    print(e)
 
-# CLIENTES INVÁLIDOS
+except Exception as e:
+    logging.error(e)
+
+# cliente invalido
 try:
     cliente3 = Cliente("", "correo", -5)
-    clientes.append(cliente3)
 except Exception as e:
-    print(e)
+    logging.error(e)
 
+# cliente invalido
 try:
     cliente4 = Cliente("Carlos", "malcorreo", 20)
-    clientes.append(cliente4)
 except Exception as e:
-    print(e)
+    logging.error(e)
 
-# SERVICIOS VÁLIDOS
+# servicio valido
 try:
     servicio1 = ReservaSala(2, 100)
     servicios.append(servicio1)
 except Exception as e:
-    print(e)
+    logging.error(e)
+
+# servicio valido
 
 try:
     servicio2 = AlquilerEquipos(3, 50)
     servicios.append(servicio2)
 except Exception as e:
-    print(e)
+    logging.error(e)
+
+
+# servicio invalido
 
 try:
-    servicio3 = Asesoria(5, 80)
-    servicios.append(servicio3)
+    servicio3 = Asesoria(-5, 80)
 except Exception as e:
-    print(e)
+    logging.error(e)
 
-# SERVICIOS INVÁLIDOS
-try:
-    servicio4 = ReservaSala(-1, 100)
-    servicios.append(servicio4)
-except Exception as e:
-    print(e)
-
-try:
-    servicio5 = Asesoria(-2, 50)
-    servicios.append(servicio5)
-except Exception as e:
-    print(e)
-
-# RESERVAS VÁLIDAS
+# Reserva Exitosa
 try:
     reserva1 = Reserva(cliente1, servicio1)
     reservas.append(reserva1)
-    print(reserva1.procesar())
+    reserva1.procesar()
 except Exception as e:
-    print(e)
+    logging.error(e)
 
-    print(e)
+# Reserva exitosa
 
+try:
+    reserva2 = Reserva(cliente2, servicio2)
+    reservas.append(reserva2)
+    reserva2.procesar()
+except Exception as e:
+    logging.error(e)
+
+# Reserva exitosa (reserva de asesorías)
+
+try:
+    servicio3 = Asesoria(2, 80)
+    servicios.append(servicio3)
+    reserva3 = Reserva(cliente1, servicio3)
+    reservas.append(reserva3)
+    reserva3.procesar()
+except Exception as e:
+    logging.error(e)
