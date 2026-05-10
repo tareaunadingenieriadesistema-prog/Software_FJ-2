@@ -11,7 +11,7 @@ from abc import ABC
 import logging
 import re
 
-# clase abstracta base
+#clase abstracta base
 class Entidad(ABC):
 
     def __init__(self, nombre):
